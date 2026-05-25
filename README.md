@@ -42,10 +42,18 @@ Insira os dados da rede de forma dinâmica pelo terminal.
 ## Testes e Validação
 Abaixo estão duas simulações executadas pelo algoritmo:
 
+
 Cenário 1: Rede em Estrela (Servidor Central)
-Neste cenário, múltiplos dispositivos conectam-se a um único ponto central. O algoritmo deteta corretamente que apenas 1 dispositivo precisa de ser monitorado.
+
+Neste cenário, múltiplos dispositivos conectam-se a um único ponto central. O algoritmo detecta corretamente que apenas 1 dispositivo precisa de ser monitorado.
+
+
+<img width="1498" height="588" alt="image" src="https://github.com/user-attachments/assets/38345966-263e-45c1-b8f7-cefa8d1b1dc1" />
+
 
 
 
 Cenário 2: Rede em Teia (Alta Redundância)
-Neste cenário, os servidores estão fortemente interligados. O algoritmo analisa as combinações e conclui o número exato de pontos necessários para cobrir toda a malha.**
+
+Neste cenário, os servidores estão fortemente interligados. O algoritmo analisa as combinações e conclui o número exato de pontos necessários para cobrir toda a malha.
+<img width="1549" height="647" alt="image" src="https://github.com/user-attachments/assets/8814cb98-886d-4473-a61a-48582b8918cf" />
